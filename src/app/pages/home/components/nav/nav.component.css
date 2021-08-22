@@ -1,0 +1,43 @@
+.nav-bar{
+    color: #fff;
+    width: 100%;
+    height: 8%;
+    background-color: #041125;
+}
+
+.nav-icon{
+    text-align: right;
+    padding-top: 0.6%;
+    padding-left: 5%;
+    width: 20%;
+    float: left;
+}
+
+img{
+    width: 20%;
+}
+
+.nav-title{
+    padding: 1.5% 0% 0% 1.3%;
+    text-align: left;
+    width: 10%;
+    float: left;
+}
+
+.nav-search{
+    padding: 1.3% 0% 0% 0%;
+    width: 40%;
+    float: left;
+}
+
+.nav-user_options{
+    padding-top: 1.3%;
+    text-align: left;
+    width: 15%;
+    float: left;
+}
+
+.material-icons{
+    color: white;
+    margin-left: 4%;
+}

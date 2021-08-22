@@ -1,0 +1,108 @@
+@import "src/app/styles/colors";
+@import "src/app/styles/variables";
+@import "src/app/styles/font";
+
+.auth-page {
+  background-image: url('./../../../../../assets/wallpaper/background.gif');
+  background-position: 30% 45%;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  .icon-nav{
+    font-size: 1.3em;
+    margin: 0px;
+    color: #000;
+    text-align: center;
+
+  } 
+
+  @media (max-width: $medium) {
+    flex-direction: column;
+  }
+
+  ::ng-deep .mat-tab-group.mat-primary .mat-tab-label .mat-tab-label-content {
+    color: #000;
+  }
+
+  ::ng-deep .mat-tab-group.mat-primary .mat-ink-bar {
+    background-color: #000 !important;
+  }
+
+  &__content-block {
+    padding: 1.5%;
+    border-radius: 0% 10% 10% 10%;
+    margin: auto;
+    width: 22%;
+    height: 55%;
+    background-image:  radial-gradient(ellipse farthest-corner at 105px 104px , #75dbfa, #4365cc, #2d66b5, #f77ced, #8f00ff);
+    display: flex;
+    align-items: center;
+    color: #000;
+    flex-direction: column;
+
+    @media (max-width: $medium) {
+      width: 100%;
+    }
+  }
+
+  &__content-wrapper {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    @media (max-width: $small) {
+      width: 70%;
+    }
+
+    @media (min-width: $medium) and (max-width: $large){
+      width: 45%;
+    }
+  }
+
+  &__group {
+    opacity: 1;
+    margin-left: 5%;
+  }
+
+  &__group-title {
+    opacity: 1;
+    margin: 5%;
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+  }
+
+  &__border-wrapper {
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  &__border-line {
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+  }
+
+  &__border-title {
+    font-size: $fs-xs;
+    padding: 0 16px;
+    margin: 0;
+  }
+}

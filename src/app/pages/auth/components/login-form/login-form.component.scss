@@ -1,0 +1,65 @@
+@import "src/app/styles/colors";
+@import "src/app/styles/font";
+
+.form {
+  width: 100%;
+
+  ::ng-deep .mat-form-field-label{
+    font-size: 1em;
+    font-weight: bold;
+    font-weight: 400;
+    color:#000 !important;
+  }
+
+  &__input {    
+    border-radius: 50px;
+    width: 100%;
+    margin-top: 6px;
+    color: black;
+  }
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__login {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    border-radius: 0px 25px 25px 25px;
+    background-color: #000;
+    margin-right: 0px;
+  }
+
+  &__homepage {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    color: white;
+    border-radius: 0px 25px 25px 25px;
+    background-color: #003392;
+    margin-right: 0px;
+  }
+  
+  &__homepage:hover {
+    background-color: #052157;
+  }
+
+  &__forget {
+    margin-top: 3%;
+    width: 100%;
+    height: 45px;
+    opacity: 1;
+    color: #123d41;
+    font-size: 12px;
+    border-radius: 0px 25px 25px 25px;
+    font-weight: $fw-lighter;
+  }
+
+  &__forget:hover {
+    text-decoration: underline;
+    color: #630606;
+  }
+}
