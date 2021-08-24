@@ -89,6 +89,7 @@ button:focus { outline: none; }
     color: #616060;
 }
 
+
 .form-clientData{
     padding-left: 3%;
 }
@@ -107,6 +108,21 @@ h5{
     margin-top: 5%;
     float: left;
     border-radius: 25px;
+}
+
+.profile_picture
+{
+    width: 90%;
+}
+
+.modal-picture-profile{
+    width: 90%;
+    height: 40%;
+    margin: auto;
+    align-items: center;
+    margin-top: -10%;
+    border-radius: 100%;
+    background-color: #052847;
 }
 
 h1{
