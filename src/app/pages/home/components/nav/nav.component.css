@@ -1,7 +1,7 @@
 .nav-bar{
     color: #fff;
     width: 100%;
-    height: 8%;
+    height: 80px;
     background-color: #041125;
 }
 
@@ -13,8 +13,19 @@
     float: left;
 }
 
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
 img{
     width: 20%;
+    animation: rotate 2s linear infinite;
 }
 
 .nav-title{
@@ -39,5 +50,12 @@ img{
 
 .material-icons{
     color: white;
-    margin-left: 4%;
+    margin-left: 6%;
 }
+
+.material-icons:hover{
+    transform: rotate(20deg);
+    color: rgb(243, 193, 28);
+    margin-left: 6%;
+}
+

@@ -1,3 +1,4 @@
+import { ComputersComponent } from './products-category/computers/containers/computers/computers.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatTableModule } from '@angular/material/table';
@@ -15,13 +16,19 @@ import { MatInputModule } from '@angular/material/input';
 import { NgApexchartsModule } from 'ng-apexcharts';
 import { FormsModule } from '@angular/forms';
 import { ProductsComponent } from './containers/products/products.component';
-import { NavComponent } from '../home/components/nav/nav.component';
 import { FooterComponent } from '../home/components/footer/footer.component';
 import { CategoryComponent } from '../home/components/category/category.component';
+import { ComputersHeaderComponent } from './products-category/computers/components/computers-header/computers-header.component';
+import { ComputersCardComponent } from './products-category/computers/components/computers-card/computers-card.component';
+import { ComputersCategoryComponent } from './products-category/computers/components/computers-category/computers-category.component';
 
 @NgModule({
   declarations: [
-    ProductsComponent
+    ProductsComponent,
+    ComputersHeaderComponent,
+    ComputersCardComponent,
+    ComputersCategoryComponent,
+    ComputersComponent
   ],
   imports: [
     CommonModule,
@@ -39,9 +46,10 @@ import { CategoryComponent } from '../home/components/category/category.componen
     MatInputModule,
     NgApexchartsModule,
     FormsModule,
-    NavComponent,
     FooterComponent,
-    CategoryComponent
+    CategoryComponent,
+    ComputersComponent,
+    ComputersHeaderComponent
   ],
   exports: [
     ProductsComponent

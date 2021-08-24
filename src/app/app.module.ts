@@ -1,3 +1,4 @@
+import { ComputersHeaderComponent } from './pages/products/products-category/computers/components/computers-header/computers-header.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -16,6 +17,11 @@ import { CategoryComponent } from './pages/home/components/category/category.com
 import { HeaderComponent } from './pages/home/components/header/header.component';
 import { FooterComponent } from './pages/home/components/footer/footer.component';
 import { ComputersComponent } from './pages/products/products-category/computers/containers/computers/computers.component';
+import { ComputersCategoryComponent } from './pages/products/products-category/computers/components/computers-category/computers-category.component';
+import { ComputersCardComponent } from './pages/products/products-category/computers/components/computers-card/computers-card.component';
+import { ClientPageComponent } from './pages/client/containers/client-page/client-page.component';
+import { ClientNavComponent } from './pages/client/components/client-nav/client-nav.component';
+import { ClientHeaderComponent } from './pages/client/components/client-header/client-header.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +32,13 @@ import { ComputersComponent } from './pages/products/products-category/computers
     CategoryComponent,
     HeaderComponent,
     FooterComponent,
-    ComputersComponent
+    ComputersComponent,
+    ComputersHeaderComponent,
+    ComputersCategoryComponent,
+    ComputersCardComponent,
+    ClientPageComponent,
+    ClientNavComponent,
+    ClientHeaderComponent
 ],
   imports: [
     BrowserModule,

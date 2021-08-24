@@ -1,0 +1,70 @@
+.mb-50 {
+    margin-bottom: 50px
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    height: 90%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #ffffff6b;
+    background-image:  radial-gradient(ellipse farthest-corner at 105px 104px , #75dbfa, #4365cc, #2d66b5, #f77ced, #8f00ff);
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 25px;
+    margin-bottom: 4%; 
+}
+
+.card-img-actions {
+    position: relative
+}
+
+.card-body {
+    border-radius: 25px;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center
+}
+
+.card-img {
+    width: 340px
+}
+
+.text-default{
+    color: black ;
+}
+
+.star {
+    margin: 2.5%;
+    width: 5px;
+    color: #ebb504
+}
+
+.bg-cart {
+    border: 3px solid #0d0936;
+    background-color: #0d0936;
+    color: #fff;
+    padding: 3%;
+    border-radius: 25px;
+}
+
+.bg-cart:hover {
+    background-color: transparent;
+    color: #0d0936;
+    padding: 3%;
+    font-weight: bold;
+    border: 3px solid #0d0936;
+}
+
+.bg-buy:hover {
+    color: #fff
+}
+
+a {
+    text-decoration: none !important
+}

@@ -1,0 +1,9 @@
+.computers-header-container
+{
+    width: 70%;
+    height: 70%;
+    padding: 1.5%;
+    background-color: #faf8f534;
+    margin: auto;
+    border-radius:  25px 25px 25px 25px;
+}

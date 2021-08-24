@@ -1,0 +1,15 @@
+.client-page
+{
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #e3eaf0dc;
+    background-image: url('./../../../../../assets/wallpaper/background7.gif');
+    background-position: 30% 45%;
+}
+
+.space{
+    height: 80px;
+    width: 100%;
+}

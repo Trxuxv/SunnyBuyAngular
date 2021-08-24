@@ -1,0 +1,38 @@
+.category-container
+{
+    width: 70%;
+    height: 58.5px;
+    background-color: none;
+    background-color: #041125c7;
+    border-radius: 0px 0px 20px 20px;
+    margin: auto;
+    padding: 0.5% 0% 0.8% 1%;
+    margin-bottom: 2%;
+}
+
+.computer-btn{
+    color: #0e9cfa;
+}
+
+button{
+    font-weight: 400;
+    width: 19%;
+    height: 125%;
+    border-radius: 17px;
+    margin: 0% 0.4%;
+    background-color: transparent;
+    border: none;
+    /*border: 1.1px solid;*/
+    color: #fff;
+    float: left;
+}
+
+button:hover{
+    color: #0e9cfa;
+}
+
+button:focus{
+    outline: 0;
+    border: none;
+    text-decoration: none !important;
+}

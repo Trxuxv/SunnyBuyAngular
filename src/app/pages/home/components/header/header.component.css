@@ -2,8 +2,7 @@
 {
     width: 70%;
     height: 70%;
-    padding: 1.5%;
-    background-color: #faf8f567;
+    background-image:  radial-gradient(ellipse farthest-corner at 105px 104px , #75dbfad7, #4365ccd7, #2d66b5d7, #f77cedd7, #8f00ffd7);
     margin: auto;
     border-radius:  25px 25px 25px 25px;
 }

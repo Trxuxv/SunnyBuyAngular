@@ -1,3 +1,4 @@
+import { ClientPageComponent } from './pages/client/containers/client-page/client-page.component';
 import { ComputersComponent } from './pages/products/products-category/computers/containers/computers/computers.component';
 import { HomePageComponent } from './pages/home/containers/home-page/home-page.component';
 import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
@@ -8,6 +9,7 @@ import { NgModule } from '@angular/core';
 const routes: Routes = [
   { path: 'dashboard', pathMatch: 'full', canActivate: [AuthGuard], component: DashboardPageComponent },
   { path: 'homepage', pathMatch: 'full', component: HomePageComponent },
+  { path: 'client', pathMatch: 'full', component: ClientPageComponent },
   { path: 'computers', pathMatch: 'full', component: ComputersComponent },
   
   // {
