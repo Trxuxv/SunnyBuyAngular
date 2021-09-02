@@ -5,13 +5,13 @@
             <p class="msg">
                 This is your profile page. You can see you personal information and edit it !
             </p>
-            <button mat-raised-button class="btn-edit-profile">Edit profile</button>
+            <button mat-raised-button class="btn-edit-account">Edit profile</button>
         </div>
         <div class="info">
             <div class="account-information">
                 <div class="nav-myAccount">
                     <h5>
-                        My account
+                        My account  
                     </h5>
                 </div>
 
@@ -21,18 +21,34 @@
                     </p>
 
                     <div class="form-clientData">
-                        <p>Cpf</p>
-                        <p>Name</p>
-                        <p>Email Address</p>
-                        <p>Phone</p>
+
+                        <!-- Here comes the form -->
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-5">
+                                    <label for="inputName4">Name</label>
+                                    <input type="text" class="form-control" placeholder="Name">
+                                  </div>
+                              <div class="form-group col-md-5">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                              </div>
+                              <div class="form-group col-md-5">
+                                <label for="inputPassword4">Password</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                              </div>
+                            </div> 
+                          </form>
+                        <!-- End of-->
+
+                        <button mat-raised-button class="btn-disable-account">Disable account</button>
                     </div>  
                   </div>
                
             </div>
             <div class="profile">
                 <div class="modal-picture-profile">
-                    <img class="profile_picture" src="./../../../../../assets/icon/mini_logo.png" alt="img_profile">
-                                  
+                    <img class="profile_picture" src="./../../../../../assets/profile/profile.jpg" alt="img_profile">
                 </div>
             </div>
         </div>

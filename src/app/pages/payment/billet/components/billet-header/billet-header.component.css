@@ -1,0 +1,47 @@
+.card 
+{
+    width: 85%;
+    height: 700px;
+    border-radius: 25px;
+    margin: auto;
+    padding: 2rem 3.5rem;
+    box-shadow: 0 6px 20px 0 #04386830;
+}
+
+.title
+{
+    text-align: center;
+}
+
+.billet-model
+{
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    width: 100%;
+    height: 900px;
+    border: 1px solid #000;
+    align-items: baseline;
+    align-content: flex-start;
+}
+
+.items{
+    width: 100%;
+    height: 80%;
+    background-color: hotpink;
+}
+
+.item
+{
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: rgba(128, 128, 128, 0.227);
+    width: 97%;
+    height: 8%;
+    border-radius: 25px;
+}
+
+.items{
+    width: 100%;
+    height: 80%;
+    background-color: hotpink;
+}

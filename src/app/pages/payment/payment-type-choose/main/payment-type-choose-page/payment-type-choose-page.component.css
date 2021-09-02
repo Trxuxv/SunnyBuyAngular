@@ -1,0 +1,16 @@
+.payment-type-page
+{
+    width: 100%;
+    height: 100%;
+    /*height: auto;*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #e3eaf0dc;
+    background-image: url('./../../../../../../assets/wallpaper/background5.jpg');
+    background-position: 30% 45%;
+}
+
+.space{
+    width: 100%;
+    height: 30px;
+}

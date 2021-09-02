@@ -1,18 +1,26 @@
-import { RouterModule, Routes } from '@angular/router';
+import { LoginFormComponent } from './login-form/login-form.component';
+import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
+import { AuthPageComponent } from './auth-page.component';
 import { NgModule } from '@angular/core';
-
-import { AuthPageComponent } from './containers';
+import { SignFormComponent } from './sign-form/sign-form.component';
 
 const routes: Routes = [
   {
-    path: '',
-    component: AuthPageComponent
+    path: 'auth',
+    component: AuthPageComponent,
+     children:
+    [
+      { path: 'login', component: LoginFormComponent },
+      { path: 'signup', component: SignFormComponent },
+    ]
   }
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forChild(routes)
+    RouterModule.forRoot(routes, {
+      preloadingStrategy: PreloadAllModules
+    })
   ],
   exports: [RouterModule]
 })

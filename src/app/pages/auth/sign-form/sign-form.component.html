@@ -1,0 +1,19 @@
+ <form class="form" [formGroup]="form" (ngSubmit)="saveSignUp()">
+  <mat-form-field class="form__input">
+    <input  name="name" matInput placeholder="Full name" type="text" formControlName="name">
+  </mat-form-field>
+
+  <mat-form-field class="form__input">
+    <input name="email" matInput placeholder="Email Address" type="email" formControlName="email">
+  </mat-form-field>
+
+  <mat-form-field class="form__input">
+    <input name="password" matInput placeholder="Password" type="password" formControlName="password">
+  </mat-form-field>
+
+  <div class="form-actions">
+    <button class="form-actions__create" mat-raised-button color="primary" type="submit" >Create your account</button>
+  </div>
+  <hr>
+  <button class="form-actions__homepage" routerLink="" mat-button>Go to site without registration</button>
+</form>
